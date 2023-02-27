@@ -124,7 +124,7 @@ describe("Teste da calculadora", () => {
     let resultado = calculadora.raiz(9);
     expect(resultado).toEqual(3);
 
-    resultado = calculadora.raiz(Math.sqrt(4));
+    resultado = calculadora.raiz(4);
     expect(resultado).toEqual(2);
 
     resultado = calculadora.raiz(16);
