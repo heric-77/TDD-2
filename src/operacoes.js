@@ -23,8 +23,14 @@ function mult(num1, num2) {
 }
 
 function div(num1, num2) {
+
+    if (num2 == 0) {
+        throw "Não é possivel dividir por 0"
+    }
+
     if(isNaN(num1) || isNaN(num2)) {
         throw 'Não é um número';
+
     }
 
     return num1 / num2
